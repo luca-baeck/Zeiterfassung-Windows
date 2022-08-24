@@ -1,0 +1,11 @@
+_Backup_
+Stunden: 7
+Uhrzeit: 14
+___Datum___
+Datum: 10.07.20, 14:00:00Uhr Now: Tue Jul 21 14:23:46 CEST 2020
+Datum: 17.07.20, 14:00:00Uhr Now: Tue Jul 21 14:23:46 CEST 2020
+Datum: 21.07.20, 15:00:00Uhr Now: Tue Jul 21 14:25:29 CEST 2020
+Datum: 24.07.20, 14:00:00Uhr Now: Fri Jul 31 15:10:15 CEST 2020
+Datum: 31.07.20, 14:00:00Uhr Now: Fri Jul 31 15:10:15 CEST 2020
+Datum: 05.08.20, 15:00:00Uhr Now: Thu Aug 06 19:36:05 CEST 2020
+Datum: 07.08.20, 14:00:00Uhr Now: Thu Aug 06 19:36:09 CEST 2020
