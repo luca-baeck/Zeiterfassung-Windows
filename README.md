@@ -4,7 +4,7 @@
 
 ## Links
 
-- [Repository](https://github.com/luca-baeck/Zeiterfassung-Windows "Face Verification Repository")
+- [Repository](https://github.com/luca-baeck/Zeiterfassung-Windows "Zeiterfassung Windows Repository")
 
 - [Bugs](https://github.com/luca-baeck/Zeiterfassung-Windows/issues "Issues Page")
 
