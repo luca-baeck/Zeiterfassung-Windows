@@ -107,7 +107,7 @@ public class cTennisstunden extends JFrame {
     lTennisstunden.setFont(new Font("Verdana", Font.BOLD, 72));
     cp.add(lTennisstunden);
     lUebersicht1.setBounds(347, 4, 280, 63);
-    lUebersicht1.setText("Übersicht:");
+    lUebersicht1.setText("Ãœbersicht:");
     lUebersicht1.setFont(new Font("Verdana", Font.BOLD, 48));
     lUebersicht1.setForeground(new Color(0x800080));
     lUebersicht1.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -120,14 +120,14 @@ public class cTennisstunden extends JFrame {
     bGuthaben.setFont(new Font("Dialog", Font.BOLD, 26));
     cp.add(bGuthaben);
     lGuthaben1.setBounds(275, 120, 210, 50);
-    lGuthaben1.setText("Guthaben: "+cTennisstunden.Guthaben+"€");
+    lGuthaben1.setText("Guthaben: "+cTennisstunden.Guthaben+"â‚¬");
     lGuthaben1.setBackground(Color.BLUE);
     lGuthaben1.setOpaque(true);
     lGuthaben1.setVisible(false);
     lGuthaben1.setFont(new Font("Dialog", Font.BOLD, 26));
     cp.add(lGuthaben1);
     bZurueck.setBounds(865, 500, 75, 40);
-    bZurueck.setText("Zurück");
+    bZurueck.setText("ZurÃ¼ck");
     bZurueck.setMargin(new Insets(2, 2, 2, 2));
     bZurueck.addActionListener(new ActionListener() { 
       public void actionPerformed(ActionEvent evt) { 
@@ -140,7 +140,7 @@ public class cTennisstunden extends JFrame {
     cp.add(bZurueck);
    
     bZurueck1.setBounds(865, 500, 75, 40);
-    bZurueck1.setText("Zurück");
+    bZurueck1.setText("ZurÃ¼ck");
     bZurueck1.setMargin(new Insets(2, 2, 2, 2));
     bZurueck1.addActionListener(new ActionListener() { 
       public void actionPerformed(ActionEvent evt) { 
@@ -182,7 +182,7 @@ public class cTennisstunden extends JFrame {
     bm.setVisible(false);
     cp.add(bm);
     bGuthaben.setBounds(85, 120, 210, 50);
-    bGuthaben.setText("Guthaben: "+cTennisstunden.Guthaben+"€");
+    bGuthaben.setText("Guthaben: "+cTennisstunden.Guthaben+"â‚¬");
     bGuthaben.setMargin(new Insets(2, 2, 2, 2));
     bGuthaben.addActionListener(new ActionListener() { 
       public void actionPerformed(ActionEvent evt) { 
@@ -229,7 +229,7 @@ public class cTennisstunden extends JFrame {
     bDaten.setVisible(false);
     cp.add(bDaten);
     bZurueck2.setBounds(865, 500, 75, 40);
-    bZurueck2.setText("Zurück");
+    bZurueck2.setText("ZurÃ¼ck");
     bZurueck2.setMargin(new Insets(2, 2, 2, 2));
     bZurueck2.addActionListener(new ActionListener() { 
       public void actionPerformed(ActionEvent evt) { 
@@ -264,7 +264,7 @@ public class cTennisstunden extends JFrame {
     lStunden.setVisible(false);
     cp.add(lStunden);
     lAktuelleVeraenderung.setBounds(10, 450, 320, 41);
-    lAktuelleVeraenderung.setText("Aktuelle Veränderung: "+cTennisstunden.different);
+    lAktuelleVeraenderung.setText("Aktuelle VerÃ¤nderung: "+cTennisstunden.different);
     lAktuelleVeraenderung.setBackground(Color.MAGENTA);
     lAktuelleVeraenderung.setOpaque(true);
     lAktuelleVeraenderung.setFont(new Font("Dialog", Font.BOLD, 26));
@@ -315,7 +315,7 @@ public class cTennisstunden extends JFrame {
     bNein.setVisible(false);
     cp.add(bNein);
     lDieswuerdeeinenNeustarterzwingen.setBounds(250, 200, 500, 50);
-    lDieswuerdeeinenNeustarterzwingen.setText("Dies würde einen Neustart erzwingen");
+    lDieswuerdeeinenNeustarterzwingen.setText("Dies wÃ¼rde einen Neustart erzwingen");
     lDieswuerdeeinenNeustarterzwingen.setFont(new Font("Dialog", Font.BOLD, 26));
     lDieswuerdeeinenNeustarterzwingen.setForeground(new Color(0x000080));
     lDieswuerdeeinenNeustarterzwingen.setHorizontalAlignment(SwingConstants.CENTER);
@@ -408,7 +408,7 @@ public class cTennisstunden extends JFrame {
     lBackupwurdeerfolgreicherstellt.setVisible(false);
     cp.add(lBackupwurdeerfolgreicherstellt);
     bZurueck3.setBounds(865, 500, 75, 40);
-    bZurueck3.setText("Zurück");
+    bZurueck3.setText("ZurÃ¼ck");
     bZurueck3.setMargin(new Insets(2, 2, 2, 2));
     bZurueck3.addActionListener(new ActionListener() { 
       public void actionPerformed(ActionEvent evt) { 
@@ -451,7 +451,7 @@ public class cTennisstunden extends JFrame {
    // end of main
   
   public void bGuthaben_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     lUebersicht1.setVisible(false);
         bGuthaben.setVisible(false);
         lUebersicht1.setVisible(false);
@@ -474,7 +474,7 @@ public class cTennisstunden extends JFrame {
   } // end of bGuthaben_ActionPerformed
 
   public void bZurueck_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
         lUebersicht1.setVisible(true);
         bGuthaben.setVisible(true);
         bZurueck.setVisible(false);
@@ -486,8 +486,8 @@ public class cTennisstunden extends JFrame {
         bm.setVisible(false);
        bDaten.setVisible(true);
     bReset.setVisible(true);
-    Zeileändern(sTennisstunden);
-    ZeileändernU(sTennisstunden);
+    Zeileaendern(sTennisstunden);
+    ZeileaendernU(sTennisstunden);
     bExit.setVisible(true);
     bm1.setVisible(false);
     bp1.setVisible(false);
@@ -496,7 +496,7 @@ public class cTennisstunden extends JFrame {
   } // end of bZurueck_ActionPerformed
 
   public void bZurueck1_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
      lGuthaben1.setVisible(true);
         lStunden.setVisible(true);
         bZurueck.setVisible(true);
@@ -505,8 +505,8 @@ public class cTennisstunden extends JFrame {
         bReset.setVisible(true);
         bp.setVisible(false);
         bm.setVisible(false);
-     Zeileändern(sTennisstunden);
-    ZeileändernU(sTennisstunden);
+     Zeileaendern(sTennisstunden);
+    ZeileaendernU(sTennisstunden);
      bExit.setVisible(true); 
       bm1.setVisible(false);
     bp1.setVisible(false);
@@ -514,13 +514,13 @@ public class cTennisstunden extends JFrame {
     bBackup.setVisible(true);
   } // end of bZurueck1_ActionPerformed
     public void bZurueck2_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     bZurueck2.setVisible(false);
     lTennisstunden.setVisible(true);
     bGuthaben.setVisible(true);
     bDaten.setVisible(true);
-    Zeileändern(sTennisstunden);
-    ZeileändernU(sTennisstunden);
+    Zeileaendern(sTennisstunden);
+    ZeileaendernU(sTennisstunden);
    bExit.setVisible(true);
     lDaten.setVisible(false);
     bExit.setBounds(437, 450, 125, 50);
@@ -532,7 +532,7 @@ public class cTennisstunden extends JFrame {
   } // end of bZurueck2_ActionPerformed
 
   public void bp_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     cTennisstunden.Stunden = cTennisstunden.Stunden+1;
     
     
@@ -541,10 +541,10 @@ public class cTennisstunden extends JFrame {
         lIhreStundenzahl.setText("Ihre Stundenzahl: "+cTennisstunden.Stunden);
          cTennisstunden.iUstunden=Integer.parseInt(cTennisstunden.UStunden) ; 
         different=cTennisstunden.Stunden-cTennisstunden.iUstunden;
-        lAktuelleVeraenderung.setText("Aktuelle Veränderung: "+cTennisstunden.different); 
+        lAktuelleVeraenderung.setText("Aktuelle VerÃ¤nderung: "+cTennisstunden.different); 
         lStunden.setText("Stunden: "+cTennisstunden.Stunden);
-        lGuthaben1.setText("Guthaben: "+Guthaben+"€");
-        bGuthaben.setText("Guthaben: "+Guthaben+"€");
+        lGuthaben1.setText("Guthaben: "+Guthaben+"â‚¬");
+        bGuthaben.setText("Guthaben: "+Guthaben+"â‚¬");
         dt=new Date();
         System.out.println(dt);
          neueZeile(sTennisstunden);
@@ -588,7 +588,7 @@ public class cTennisstunden extends JFrame {
   
   
   public void bm_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
           cTennisstunden.Stunden = cTennisstunden.Stunden-1;
         
         cTennisstunden.Guthaben= cTennisstunden.Stunden*7;
@@ -596,14 +596,14 @@ public class cTennisstunden extends JFrame {
         lIhreStundenzahl.setText("Ihre Stundenzahl: "+cTennisstunden.Stunden);
           cTennisstunden.iUstunden=Integer.parseInt(cTennisstunden.UStunden) ; 
         different=cTennisstunden.Stunden-cTennisstunden.iUstunden;
-        lAktuelleVeraenderung.setText("Aktuelle Veränderung: "+cTennisstunden.different);
+        lAktuelleVeraenderung.setText("Aktuelle VerÃ¤nderung: "+cTennisstunden.different);
          
         lStunden.setText("Stunden: "+cTennisstunden.Stunden);
-        lGuthaben1.setText("Guthaben: "+Guthaben+"€");
-        bGuthaben.setText("Guthaben: "+Guthaben+"€");
-         datumlöschen(sTennisstunden);
+        lGuthaben1.setText("Guthaben: "+Guthaben+"â‚¬");
+        bGuthaben.setText("Guthaben: "+Guthaben+"â‚¬");
+         datumloeschen(sTennisstunden);
   } // end of bm_ActionPerformed
-  public void datumlöschen(String sTennisstunden){
+  public void datumloeschen(String sTennisstunden){
     if (cTennisstunden.Stunden>=0) {
       
     
@@ -621,16 +621,16 @@ public class cTennisstunden extends JFrame {
       String zeile = null;
       String nulle="";
       while((zeile = reader.readLine()) != null) {
-        // Ändern
+        // ï¿½ndern
         
           
             if (zeile.contains("Datum:")) {
-          System.out.println("Löschvorgang: Gelesene Zeile: " + zeile);
+          System.out.println("Loeschvorgang: Gelesene Zeile: " + zeile);
    
             System.out.println(cTennisstunden.Stunden);
            if (o==cTennisstunden.Stunden) {
             
-            System.out.println("Wird gelöscht...");
+            System.out.println("Wird geloescht...");
             zeile=zeile.replace(zeile,nulle) ;
              
              Datum[o]=null;
@@ -675,7 +675,7 @@ public class cTennisstunden extends JFrame {
     }
     }
    public void bReload_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     bGuthaben.setVisible(true);
     bDaten.setVisible(true);
      Datenreload(sTennisstunden);
@@ -684,8 +684,8 @@ public class cTennisstunden extends JFrame {
 
         lStunden.setText("Stunden: "+cTennisstunden.Stunden);
     cTennisstunden.Guthaben=cTennisstunden.Stunden*7;
-        lGuthaben1.setText("Guthaben: "+Guthaben+"€");
-         bGuthaben.setText("Guthaben: "+Guthaben+"€");
+        lGuthaben1.setText("Guthaben: "+Guthaben+"â‚¬");
+         bGuthaben.setText("Guthaben: "+Guthaben+"â‚¬");
     bReload.setVisible(false);
     bReset.setVisible(true);
     bExit.setVisible(true);
@@ -693,7 +693,7 @@ public class cTennisstunden extends JFrame {
     bBackup.setVisible(true);
   } // end of bReload_ActionPerformed
 
-  private static void Zeileändern(String sTennisstunden){
+  private static void Zeileaendern(String sTennisstunden){
     BufferedReader reader = null;
     BufferedWriter writer = null;
     StringBuffer lesepuffer = null;
@@ -707,7 +707,7 @@ public class cTennisstunden extends JFrame {
       
       String zeile = null;
       while((zeile = reader.readLine()) != null) {
-        // Ändern
+        // ï¿½ndern
         if(zeile.contains(wert)) {
           
             zeile=zeile.replace(cTennisstunden.UStunden,cTennisstunden.NStunden.valueOf(cTennisstunden.Stunden));
@@ -745,7 +745,7 @@ public class cTennisstunden extends JFrame {
       }
     }
     }
-   private static void ZeileändernU(String sTennisstunden){
+   private static void ZeileaendernU(String sTennisstunden){
     BufferedReader reader = null;
     BufferedWriter writer = null;
     StringBuffer lesepuffer = null;
@@ -759,7 +759,7 @@ public class cTennisstunden extends JFrame {
       
       String zeile = null;
       while((zeile = reader.readLine()) != null) {
-        // Ändern
+        // ï¿½ndern
        
         if(zeile.contains(wert)) {
           
@@ -1022,7 +1022,7 @@ public class cTennisstunden extends JFrame {
  
 
   public void bExit_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     
     try{
 
@@ -1030,14 +1030,14 @@ public class cTennisstunden extends JFrame {
       } catch(InterruptedException ex){
         //do stuff
         }
-    Zeileändern(sTennisstunden);
-    ZeileändernU(sTennisstunden);
+    Zeileaendern(sTennisstunden);
+    ZeileaendernU(sTennisstunden);
      System.exit(0);
     
   } // end of bExit_ActionPerformed
 
   public void bDaten_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     
     lTennisstunden.setVisible(false);
     bGuthaben.setVisible(false);
@@ -1054,7 +1054,7 @@ public class cTennisstunden extends JFrame {
 
 
   public void bReset_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     lSolldasProgrammwirklichresettetwerden.setVisible(true);
     bJa.setVisible(true);
     bNein.setVisible(true);
@@ -1069,13 +1069,13 @@ public class cTennisstunden extends JFrame {
   } // end of bReset_ActionPerformed
 
   public void bJa_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
-   Dateilöschen(sTennisstunden);
+    // TODO hier Quelltext einfï¿½gen
+   Dateiloeschen(sTennisstunden);
     System.exit(0);
   } // end of bJa_ActionPerformed
   
-  public static void Dateilöschen(String sTennisstunden){
-   System.out.println("Datei wird gelöscht...");
+  public static void Dateiloeschen(String sTennisstunden){
+   System.out.println("Datei wird geloescht...");
      try{
 
        Thread.sleep(1000);
@@ -1091,7 +1091,7 @@ public class cTennisstunden extends JFrame {
     
    }
   public void bNein_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     lSolldasProgrammwirklichresettetwerden.setVisible(false);
     bJa.setVisible(false);
     bNein.setVisible(false);
@@ -1106,19 +1106,19 @@ public class cTennisstunden extends JFrame {
   } // end of bNein_ActionPerformed
 
   public void bm1_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     cTennisstunden.Uhrzeit=cTennisstunden.Uhrzeit-1;
     lUhrzeit.setText("Uhrzeit: "+Uhrzeit+"Uhr");
   } // end of bm1_ActionPerformed
 
   public void bp1_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     cTennisstunden.Uhrzeit=cTennisstunden.Uhrzeit+1;
     lUhrzeit.setText("Uhrzeit: "+Uhrzeit+"Uhr");
   } // end of bp1_ActionPerformed
 
   public void bBackup_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
      bBackup.setVisible(false);
     bGuthaben.setVisible(false);
     bDaten.setVisible(false);
@@ -1132,7 +1132,7 @@ public class cTennisstunden extends JFrame {
   } // end of bBackup_ActionPerformed
 
   public void bJa1_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
    
     lSolleinBackuperstelltwerden.setVisible(false);
     bJa1.setVisible(false);
@@ -1146,7 +1146,7 @@ public class cTennisstunden extends JFrame {
   } // end of bJa1_ActionPerformed
 
   public void bNein1_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
     lSolleinBackuperstelltwerden.setVisible(false);
     bJa1.setVisible(false);
     bNein1.setVisible(false);
@@ -1161,7 +1161,7 @@ public class cTennisstunden extends JFrame {
   } // end of bNein1_ActionPerformed
 
   public void bZurueck3_ActionPerformed(ActionEvent evt) {
-    // TODO hier Quelltext einfügen
+    // TODO hier Quelltext einfï¿½gen
      bGuthaben.setVisible(true);
     bDaten.setVisible(true);
     lTennisstunden.setVisible(true);
@@ -1180,7 +1180,7 @@ public class cTennisstunden extends JFrame {
     try {
        if (!file.createNewFile() ){
         file.delete();
-        System.out.println("Backup wurde gelöscht");
+        System.out.println("Backup wurde geloescht");
          }
            
         if (file.createNewFile() ) {

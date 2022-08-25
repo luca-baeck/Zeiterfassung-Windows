@@ -8,6 +8,20 @@
 
 - [Bugs](https://github.com/luca-baeck/Zeiterfassung-Windows/issues "Issues Page")
 
+## Screenshots
+
+![Screenshot](/application-preview/menu.png "Screenshot")
+![Screenshot](/application-preview/prescreen.png "Screenshot")
+![Screenshot](/application-preview/addremovehours.png "Screenshot")
+![Screenshot](/application-preview/addedhours.png "Screenshot")
+![Screenshot](/application-preview/backup1.png "Screenshot")
+![Screenshot](/application-preview/backup.png "Screenshot")
+![Screenshot](/application-preview/reset.png "Screenshot")
+
+
+Gameplay Video:
+[Video](/application-preview/preview.mp4 "Video")
+
 ## Available Commands
 
 Im Programm kannst du folgende Befehle ausführen:
