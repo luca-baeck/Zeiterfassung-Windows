@@ -19,7 +19,7 @@
 ![Screenshot](/application-preview/reset.png "Screenshot")
 
 
-Gameplay Video:
+Application Video:
 [Video](/application-preview/preview.mp4 "Video")
 
 ## Available Commands
