@@ -1,6 +1,6 @@
 <h1 align="center">Zeiterfassung Windows</h1>
 
-<p align="center">Eine einfache Möglichkeit geleistete Arbeitsstunden zu erfassen und zu speichern.</p>
+<p align="center">Eine einfache Möglichkeit geleistete Arbeitsstunden zu erfassen und zu speichern. (Hier für geleistete Tennisstunden)</p>
 
 ## Links
 
