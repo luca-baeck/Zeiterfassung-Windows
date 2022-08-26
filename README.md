@@ -1,6 +1,6 @@
 <h1 align="center">Zeiterfassung Windows</h1>
 
-<p align="center">Eine einfache Möglichkeit geleistete Arbeitsstunden zu erfassen und zu speichern.</p>
+<p align="center">Eine einfache Möglichkeit geleistete Arbeitsstunden zu erfassen und zu speichern (Hier für geleistete Tennisstunden).</p>
 
 ## Links
 
@@ -18,9 +18,9 @@
 ![Screenshot](/application-preview/backup.png "Screenshot")
 ![Screenshot](/application-preview/reset.png "Screenshot")
 
+Application Video:
+[Video](/application-preview/preview.mp4 "Video")
 
-Gameplay Video:
-[Video](/application-preview/preview.ts "Video")
 
 ## Available Commands
 
